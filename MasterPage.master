@@ -4,7 +4,6 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title><%# Microsite.SiteUtils.siteId%> <%# Microsite.SiteUtils.shortKey%> <%# Microsite.SiteUtils.longKey%></title>
     <asp:ContentPlaceHolder id="head" runat="server">
     </asp:ContentPlaceHolder>
     <link href="css/styles.css" rel="stylesheet" type="text/css" media="all" />
@@ -15,20 +14,17 @@
     <div id="siteInner">
 	    <asp:Repeater ID="repeaterXML" runat="server">
             <ItemTemplate>
-                <%# 
-                   Microsite.SiteUtils.SetSite(XPath("@id").ToString(), XPath("@shortkey").ToString(), XPath("@longkey").ToString()) 
-                %>
                 <div id="headTop">
                     <img src="images/skynet_face.jpg" alt='<%# XPath("@longkey")%> Security Systems by SkyNet' />
-                    <img src="images/skynet_security_systems.png" alt="Skynet Security Systems" id="logo" />
+                    <a href="Default.aspx" id="logo"><img src="images/skynet_security_systems.png" alt="Skynet Security Systems" /></a>
                     <h4><%# Microsite.SiteUtils.ReplaceText(XPath("contentareas/contentarea[@id='n1']").ToString())%></h4>
                 </div>
                 <div id="headNav">
                     <ul class="horiz">
-                        <li><a href="#"><%# Microsite.SiteUtils.ReplaceText(XPath("contentareas/contentarea[@id='n2']").ToString())%></a></li>
-                        <li><a href="#"><%# Microsite.SiteUtils.ReplaceText(XPath("contentareas/contentarea[@id='n3']").ToString())%></a></li>
-                        <li><a href="#"><%# Microsite.SiteUtils.ReplaceText(XPath("contentareas/contentarea[@id='n4']").ToString())%></a></li>
-                        <li><a href="#"><%# Microsite.SiteUtils.ReplaceText(XPath("contentareas/contentarea[@id='n5']").ToString())%></a></li>
+                        <li><a href="security_systems.aspx"><%# Microsite.SiteUtils.ReplaceText(XPath("contentareas/contentarea[@id='n2']").ToString())%></a></li>
+                        <li><a href="security_cameras.aspx"><%# Microsite.SiteUtils.ReplaceText(XPath("contentareas/contentarea[@id='n3']").ToString())%></a></li>
+                        <li><a href="surveillance_cameras.aspx"><%# Microsite.SiteUtils.ReplaceText(XPath("contentareas/contentarea[@id='n4']").ToString())%></a></li>
+                        <li><a href="security_system_information.aspx"><%# Microsite.SiteUtils.ReplaceText(XPath("contentareas/contentarea[@id='n5']").ToString())%></a></li>
                     </ul>
                 </div>
 
@@ -39,10 +35,10 @@
 
                 <div id="footWrap">
                     <ul id="footNav">
-                        <li><a href="#"><%# Microsite.SiteUtils.ReplaceText(XPath("contentareas/contentarea[@id='n2']").ToString())%></a></li>
-                        <li><a href="#"><%# Microsite.SiteUtils.ReplaceText(XPath("contentareas/contentarea[@id='n3']").ToString())%></a></li>
-                        <li><a href="#"><%# Microsite.SiteUtils.ReplaceText(XPath("contentareas/contentarea[@id='n4']").ToString())%></a></li>
-                        <li><a href="#"><%# Microsite.SiteUtils.ReplaceText(XPath("contentareas/contentarea[@id='n5']").ToString())%></a></li>
+                        <li><a href="security_systems.aspx"><%# Microsite.SiteUtils.ReplaceText(XPath("contentareas/contentarea[@id='n2']").ToString())%></a></li>
+                        <li><a href="security_cameras.aspx"><%# Microsite.SiteUtils.ReplaceText(XPath("contentareas/contentarea[@id='n3']").ToString())%></a></li>
+                        <li><a href="surveillance_cameras.aspx"><%# Microsite.SiteUtils.ReplaceText(XPath("contentareas/contentarea[@id='n4']").ToString())%></a></li>
+                        <li><a href="security_system_information.aspx"><%# Microsite.SiteUtils.ReplaceText(XPath("contentareas/contentarea[@id='n5']").ToString())%></a></li>
                     </ul>
                 </div>
             </ItemTemplate>

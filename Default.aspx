@@ -1,7 +1,9 @@
-﻿<%@ Page Language="C#" Debug="true" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" %>
+﻿<%@ Page Language="C#" Debug="true" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeBehind="~/Default.aspx.cs" %>
 
-<asp:Content ID="Content2" ContentPlaceHolderId="head" runat="server">
-  
+<asp:Content ID="head" ContentPlaceHolderId="head" runat="server">
+    <title><%# Microsite.SiteUtils.GetPageTitle()%></title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="<%# Microsite.SiteUtils.siteId%> <%# Microsite.SiteUtils.shortKey%> <%# Microsite.SiteUtils.longKey%>" />
 </asp:Content>
 
 <asp:Content ID="Content1" ContentPlaceHolderId="ContentPlaceHolder1" runat="server">

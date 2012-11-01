@@ -11,24 +11,14 @@ namespace Microsite
     public static class SiteUtils
     {
         public static string siteId { get; set; }
+        public static string domainKey { get; set; }
+        public static string domainName { get; set; }
         public static string shortKey { get; set; }
         public static string longKey { get; set; }
 
-        public static object SetSite(string _siteId, string _shortKey, string _longKey)
+        public static string GetPageTitle()
         {
-            if (!string.IsNullOrEmpty(_siteId))
-            {
-                siteId = _siteId;
-            }
-            if (!string.IsNullOrEmpty(_shortKey))
-            {
-                shortKey = _shortKey;
-            }
-            if (!string.IsNullOrEmpty(_longKey))
-            {
-                longKey = _longKey;
-            }
-            return null;
+            return domainKey + " in " + longKey + ", SkyNet Security Systems";
         }
 
         public static string ReplaceText(string xmlData)
