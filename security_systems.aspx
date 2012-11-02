@@ -7,8 +7,9 @@
 </asp:Content>
 
 <asp:Content ID="Content1" ContentPlaceHolderId="ContentPlaceHolder1" runat="server">
-    <h1>Security Systems in <%# Microsite.SiteUtils.longKey%></h1>
-
+    <h1><%# Microsite.SiteUtils.ReplaceText(XPath("contentareas/contentarea[@id='system1']").ToString())%></h1>
+    <%# Microsite.SiteUtils.ReplaceText(XPath("contentareas/contentarea[@id='system2']").ToString())%>
+    <%# Microsite.SiteUtils.ReplaceText(XPath("contentareas/contentarea[@id='system3']").ToString())%>
 </asp:Content>
 
 

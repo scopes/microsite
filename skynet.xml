@@ -1,19 +1,60 @@
 <site id="downers_grove_il" longkey="Downers Grove, Illinois" shortkey="Downers Grove">
 	<contentareas>
-		<contentarea id="n1">
+		<contentarea id="nav1">
 			<![CDATA[Proudly Serving<br/>[LONGKEY]]]>
 		</contentarea>
-		<contentarea id="n2">Security Systems [SHORTKEY]</contentarea>
-		<contentarea id="n3">Security Cameras [SHORTKEY]</contentarea>
-		<contentarea id="n4">Surveillance Cameras [SHORTKEY]</contentarea>
-		<contentarea id="n5">Contact Us</contentarea>
-		<contentarea id="b1">Security Systems in [LONGKEY]</contentarea>
-		<contentarea id="b2">SkyNet Security Systems</contentarea>
-		<contentarea id="b3">
+		<contentarea id="nav2">Security Systems [SHORTKEY]</contentarea>
+		<contentarea id="nav3">Security Cameras [SHORTKEY]</contentarea>
+		<contentarea id="nav4">Surveillance Cameras [SHORTKEY]</contentarea>
+		<contentarea id="nav5">Contact Us</contentarea>
+		<contentarea id="home1">Security Systems in [LONGKEY]</contentarea>
+		<contentarea id="home2">SkyNet Security Systems</contentarea>
+		<contentarea id="home3">
 			<![CDATA[
 			<p>With theft statistics at an all-time high, protecting your business or property with an advanced security system has become more important than ever. While there is an increasing demand for security systems, the implementation of them can prove quite costly. SkyNet Security Systems offers its clients a perfect, cost effective solution.</p>
 			<p>At SkyNet Security Systems we excel at catering our surveillance security systems to the varied needs of our commercial and residential clients.</p>
 			<p>With over 15 years of industry experience and 1,000 clients nationwide, you can rest assured that we have a solution for you! Whether you're in the market for a new system or you're looking to improve, repair or replace your existing system, you'll find our reputation for service speaks for itself.</p>
+			]]>
+		</contentarea>
+		<contentarea id="system1">
+			SkyNet Security Systems is your preferred partner for security system installation throughout the [LONGKEY] area.
+		</contentarea>
+		<contentarea id="system2">
+			<![CDATA[
+			<h2>Residential Security Systems in [SHORTKEY]</h2>
+			<p>Studies indicate that the economic recession sparked growth in at least one arena: the national crime rate. With theft statistics at an all-time high, protecting your business or property with an advanced security system has become more important than ever, and there is no more affordable solution than SkyNet Security's wireless security system. If you want to prevent unnecessary loss, effectively manage emergency situations, and monitor your property or business remotely, a digital video surveillance system is the right solution for you.</p>
+			<p>Our experienced technicians strive to provide exceptional security system design and installation services of innovative home security systems that are cost-effective, easy-to-use and feature high-quality industry components such as:<br/> 
+			<ul>
+			<li>Wireless Alarm Systems</li>
+			<li>Wired Alarm Systems</li>
+			<li>Monitoring Services</li>
+			<li>Video Security Cameras</li>
+			</ul>
+			</p>
+			]]>
+		</contentarea>
+		<contentarea id="system3">
+			<![CDATA[
+			<h2>Commercial Security Systems in [SHORTKEY]</h2>
+			<p>A Commercial SkyNet Security System will assist your company in protecting your business and your employees. Our sophisticated security and surveillance systems utilize high-quality closed-circuit television (CCTV) and sophisticated alarm-system products to provide you with innovative, yet simple-to-use, commercial security features and cost-effective peace of mind.</p>  
+			<p>Our Security Systems incorporate:<br/>
+			<ul>
+			<li>Digital Video Recorders</li>
+			<li>Network Video Recorders</li>
+			<li>Remote-Viewing Surveillance</li>
+			<li>Electronic Access Control</li>
+			</ul>
+			</p>
+			]]>
+		</contentarea>
+		<contentarea id="cameras1">
+			<![CDATA[
+			has the Security Cameras you need for home office or business.
+
+
+security camera systems from Home Security Store help keep burglars out. Our experts are ready to help and we offer free shipping on most orders.
+
+Professional security cameras and cctv equipment, digital video recorders, dvr, and complete security camera systems.
 			]]>
 		</contentarea>
 	</contentareas>

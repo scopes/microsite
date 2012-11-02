@@ -9,10 +9,10 @@
 <asp:Content ID="Content1" ContentPlaceHolderId="ContentPlaceHolder1" runat="server">
 <div id="contentHome" class="split split60">
     <div class="contentLeft">
-        <h1><%# Microsite.SiteUtils.ReplaceText(XPath("contentareas/contentarea[@id='b1']").ToString())%></h1>
+        <h1><%# Microsite.SiteUtils.ReplaceText(XPath("contentareas/contentarea[@id='home1']").ToString())%></h1>
 
-        <p><%# Microsite.SiteUtils.ReplaceText(XPath("contentareas/contentarea[@id='b2']").ToString())%></p>
-        <div><%# Microsite.SiteUtils.ReplaceText(XPath("contentareas/contentarea[@id='b3']").ToString())%></div>
+        <p><%# Microsite.SiteUtils.ReplaceText(XPath("contentareas/contentarea[@id='home2']").ToString())%></p>
+        <div><%# Microsite.SiteUtils.ReplaceText(XPath("contentareas/contentarea[@id='home3']").ToString())%></div>
     </div>
     <div class="contentRight">
         <p><img src="images/call_877-sky-cctv.png" alt="Call 1-877-SKY-CCTV" /></p>    
