@@ -1,4 +1,4 @@
-<site id="downers_grove_il" longkey="Downers Grove, Illinois" shortkey="Downers Grove">
+<site>
 	<contentareas>
 		<contentarea id="nav1">
 			<![CDATA[Proudly Serving<br/>[LONGKEY]]]>
@@ -49,12 +49,8 @@
 		</contentarea>
 		<contentarea id="cameras1">
 			<![CDATA[
-			has the Security Cameras you need for home office or business.
-
-
-security camera systems from Home Security Store help keep burglars out. Our experts are ready to help and we offer free shipping on most orders.
-
-Professional security cameras and cctv equipment, digital video recorders, dvr, and complete security camera systems.
+			<p>SkyNet Security Systems has the security cameras you need for your home security system or business surveillance system.   Whether you are looking to keep burglars our of your home or monitor your business property and employees while you are away, our security camera experts are here to help give you that extra peace of mind that you deserve. </p>
+			<p>SkyNet Security Systems offers and installs a complete line of surveillance cameras in a wide variety of lens sizes and a full range of resolutions. Our professional quality cameras offer low-illumination, infrared, megapixel, IP, and wide angle capabilities. We also offer dome, full-body, bullet, and pan-tilt-zoom cameras to help meet unique installation needs.</p>
 			]]>
 		</contentarea>
 	</contentareas>
