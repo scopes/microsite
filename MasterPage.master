@@ -11,40 +11,42 @@
 <body>
     <form id="form1" runat="server">
     <div id="site">
-    <div id="siteInner">
 	    <asp:Repeater ID="repeaterXML" runat="server">
             <ItemTemplate>
-                <div id="headTop">
-                    <img src="images/skynet_face.jpg" alt='<%# Microsite.SiteUtils.longKey %> Security Systems by SkyNet' />
-                    <a href="Default.aspx" id="logo"><img src="images/skynet_security_systems.png" alt="Skynet Security Systems" /></a>
-                    <h4><%# Microsite.SiteUtils.ReplaceText(XPath("contentareas/contentarea[@id='nav1']").ToString())%></h4>
+                <div id="head">
+                    <div id="headInner">
+                        <div id="headTop">
+                            <img src="images/skynet_face.jpg" alt='<%# Microsite.SiteUtils.longKey %> Security Systems by SkyNet' />
+                            <a href="Default.aspx" id="logo"><img src="images/skynet_security_systems.png" alt="Skynet Security Systems" /></a>
+                            <h4><%# Microsite.SiteUtils.ReplaceText(XPath("contentareas/contentarea[@id='nav1']").ToString())%></h4>
+                        </div>
+                        <div id="headNav">
+                            <ul class="horiz">
+                                <li><a href="security_systems.aspx"><%# Microsite.SiteUtils.ReplaceText(XPath("contentareas/contentarea[@id='nav2']").ToString())%></a></li>
+                                <li><a href="security_cameras.aspx"><%# Microsite.SiteUtils.ReplaceText(XPath("contentareas/contentarea[@id='nav3']").ToString())%></a></li>
+                                <li><a href="surveillance_cameras.aspx"><%# Microsite.SiteUtils.ReplaceText(XPath("contentareas/contentarea[@id='nav4']").ToString())%></a></li>
+                                <li><a href="access_control.aspx"><%# Microsite.SiteUtils.ReplaceText(XPath("contentareas/contentarea[@id='nav5']").ToString())%></a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <div id="headNav">
-                    <ul class="horiz">
-                        <li><a href="security_systems.aspx"><%# Microsite.SiteUtils.ReplaceText(XPath("contentareas/contentarea[@id='nav2']").ToString())%></a></li>
-                        <li><a href="security_cameras.aspx"><%# Microsite.SiteUtils.ReplaceText(XPath("contentareas/contentarea[@id='nav3']").ToString())%></a></li>
-                        <li><a href="surveillance_cameras.aspx"><%# Microsite.SiteUtils.ReplaceText(XPath("contentareas/contentarea[@id='nav4']").ToString())%></a></li>
-                        <li><a href="access_control.aspx"><%# Microsite.SiteUtils.ReplaceText(XPath("contentareas/contentarea[@id='nav5']").ToString())%></a></li>
-                    </ul>
-                </div>
-
-                <div id="bodyWrap">
-                    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
-                    </asp:ContentPlaceHolder>
-                </div>
-
-                <div id="footWrap">
-                    <p><a href="Default.aspx"><img src="images/footer_name.png" alt="SkyNet Security Systems" /></a></p>
-                    <ul id="footNav">
-                        <li class="first"><a href="security_systems.aspx"><%# Microsite.SiteUtils.ReplaceText(XPath("contentareas/contentarea[@id='nav2']").ToString())%></a></li>
-                        <li><a href="security_cameras.aspx"><%# Microsite.SiteUtils.ReplaceText(XPath("contentareas/contentarea[@id='nav3']").ToString())%></a></li>
-                        <li><a href="surveillance_cameras.aspx"><%# Microsite.SiteUtils.ReplaceText(XPath("contentareas/contentarea[@id='nav4']").ToString())%></a></li>
-                        <li><a href="security_system_information.aspx"><%# Microsite.SiteUtils.ReplaceText(XPath("contentareas/contentarea[@id='nav5']").ToString())%></a></li>
-                    </ul>
+                <div id="siteInner">
+                    <div id="bodyWrap">
+                        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                    <div id="footWrap">
+                        <p><a href="Default.aspx"><img src="images/footer_name.png" alt="SkyNet Security Systems" /></a></p>
+                        <ul id="footNav">
+                            <li class="first"><a href="security_systems.aspx"><%# Microsite.SiteUtils.ReplaceText(XPath("contentareas/contentarea[@id='nav2']").ToString())%></a></li>
+                            <li><a href="security_cameras.aspx"><%# Microsite.SiteUtils.ReplaceText(XPath("contentareas/contentarea[@id='nav3']").ToString())%></a></li>
+                            <li><a href="surveillance_cameras.aspx"><%# Microsite.SiteUtils.ReplaceText(XPath("contentareas/contentarea[@id='nav4']").ToString())%></a></li>
+                            <li><a href="security_system_information.aspx"><%# Microsite.SiteUtils.ReplaceText(XPath("contentareas/contentarea[@id='nav5']").ToString())%></a></li>
+                        </ul>
+                    </div>
                 </div>
             </ItemTemplate>
         </asp:Repeater>
-    </div>
     </div>
     </form>
 </body>

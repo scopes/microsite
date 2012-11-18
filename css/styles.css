@@ -1,6 +1,6 @@
 body {
-	background-color:#000;
-	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color:#192132;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	font-weight: normal;
 	color: #000;
@@ -8,6 +8,9 @@ body {
 	text-align:left;
 	padding:0;
 	margin:0;
+	background-image:url(../images/site_grad.jpg);
+	background-repeat:repeat-y;
+	background-position:center top;	
 }
 
 form, fieldset, dl, dt, dd, table, th, td, h1, h2, h3, h4, h5, h6, p
@@ -64,8 +67,8 @@ table,tr,td { vertical-align:top; }
 .contentRight { float:right; width:49%; }
 .split25 .contentLeft { width:23%; }
 .split25 .contentRight { width:73%; }
-.split60 .contentLeft { width:58.7%; }
-.split60 .contentRight { width:39.2%; }
+.split60 .contentLeft { width:57%; }
+.split60 .contentRight { width:37%; }
 .split75 .contentLeft { width:71.5%; }
 .split75 .contentRight { width:26.2%; }
 
@@ -127,19 +130,18 @@ img.inlineRight {
 
 #site 
 {
-    width:886px;
+    width:100%;
     margin:0 auto;
-	background-color:#fff;
 	/*background-image:url(../images/site_bg.png);*/
 	background-repeat:repeat-y;
 	background-position:center top;	
 }
 
-#siteInnerXXX 
+#headInner, #siteInner 
 {
-    width:880px;
+    width:910px;
+	background-color:#fff;
     margin:0 auto;
-    padding-bottom:18px;
 }
 
 /**************
@@ -178,13 +180,13 @@ img.inlineRight {
 #headNav ul 
 {
     text-align:center;
-    margin-left:-5px;
+    margin-left:-10px;
 }
 
 #headNav ul li 
 {
     font-size:12px;
-    margin-left:5px;
+    margin-left:10px;
     line-height:42px;
 }
 
@@ -270,3 +272,15 @@ img.inlineRight {
 {
     text-align:center;
 }
+
+#defaultContentWrap
+{
+    padding-top:25px;
+    text-align:center;
+}
+
+#defaultContentWrap p 
+{
+    margin-bottom:25px;
+}
+    
