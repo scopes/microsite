@@ -6,7 +6,7 @@
 		<contentarea id="nav2">Security Systems [SHORTKEY]</contentarea>
 		<contentarea id="nav3">Security Cameras [SHORTKEY]</contentarea>
 		<contentarea id="nav4">Surveillance Cameras [SHORTKEY]</contentarea>
-		<contentarea id="nav5">Contact Us</contentarea>
+		<contentarea id="nav5">Access Control [SHORTKEY]</contentarea>
 		<contentarea id="home1">Security Systems in [LONGKEY]</contentarea>
 		<contentarea id="home2">SkyNet Security Systems</contentarea>
 		<contentarea id="home3">
@@ -47,12 +47,27 @@
 			</p>
 			]]>
 		</contentarea>
-		<contentarea id="cameras1">
-			<![CDATA[
+    <contentarea id="camera1">
+      SkyNet Security Systems is the professional source for security cameras in the [LONGKEY] area.
+    </contentarea>
+    <contentarea id="camera2">
+      <![CDATA[
 			<p>SkyNet Security Systems has the security cameras you need for your home security system or business surveillance system.   Whether you are looking to keep burglars our of your home or monitor your business property and employees while you are away, our security camera experts are here to help give you that extra peace of mind that you deserve. </p>
 			<p>SkyNet Security Systems offers and installs a complete line of surveillance cameras in a wide variety of lens sizes and a full range of resolutions. Our professional quality cameras offer low-illumination, infrared, megapixel, IP, and wide angle capabilities. We also offer dome, full-body, bullet, and pan-tilt-zoom cameras to help meet unique installation needs.</p>
 			]]>
-		</contentarea>
-	</contentareas>
+    </contentarea>
+    <contentarea id="surv1">
+      SkyNet Security System is your source for high-quality, professional-grade surveillance security systems in [LONGKEY].
+    </contentarea>
+    <contentarea id="surv2">
+      <![CDATA[
+      <p>As surveillance camera experts, we at SkyNet Security Systems pride ourselves on the fact that we sell only professional grade lines of home security cameras and business surveillance systems from top manufacturers.  We consistently provide you with surveillance cameras, video recorders and security systems that are cost effective and field-proven.</p> 
+      <h2>24/7 Coverage of Your Most Important Assets</h2>
+      <p>A video surveillance system from SkyNet Security Systems provide you with round-the-clock peace of mind that can also increase productivity at your workplace while you are away. Connect to your video cameras from anywhere & anytime and see what you've been missing.  Call to speak with a video surveillance specialist and we will deliver an effective video security & access control system that you can rely on.</p>
+      <h2>Protect & Prevent Crime With Video Surveillance</h2>
+      <p>Protect your Business, Employees & Customers. Prevent vandalism, crime and unnecessary loss, effectively manage emergency situations, and monitor your property or business remotely, a digital video surveillance system is the right solution for you. A SkyNet Security consultant can help you choose from a wide range of products and help you create a customized solution that fits your specific needs.</p>
+			]]>
+    </contentarea>
+  </contentareas>
 </site>
 

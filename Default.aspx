@@ -1,9 +1,9 @@
 ﻿<%@ Page Language="C#" Debug="true" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeBehind="~/Default.aspx.cs" %>
 
 <asp:Content ID="head" ContentPlaceHolderId="head" runat="server">
-    <title><%# Microsite.SiteUtils.GetPageTitle()%></title>
+    <title>Security Systems in [LONGKEY] | SkyNet Security Systems</title>
     <meta name="keywords" content="" />
-    <meta name="description" content="<%# Microsite.SiteUtils.siteId%> <%# Microsite.SiteUtils.shortKey%> <%# Microsite.SiteUtils.longKey%>" />
+    <meta name="description" content="[SITEID] [SHORTKEY] [LONGKEY]" />
 </asp:Content>
 
 <asp:Content ID="Content1" ContentPlaceHolderId="ContentPlaceHolder1" runat="server">

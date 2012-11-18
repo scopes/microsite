@@ -24,7 +24,7 @@
                         <li><a href="security_systems.aspx"><%# Microsite.SiteUtils.ReplaceText(XPath("contentareas/contentarea[@id='nav2']").ToString())%></a></li>
                         <li><a href="security_cameras.aspx"><%# Microsite.SiteUtils.ReplaceText(XPath("contentareas/contentarea[@id='nav3']").ToString())%></a></li>
                         <li><a href="surveillance_cameras.aspx"><%# Microsite.SiteUtils.ReplaceText(XPath("contentareas/contentarea[@id='nav4']").ToString())%></a></li>
-                        <li><a href="security_system_information.aspx"><%# Microsite.SiteUtils.ReplaceText(XPath("contentareas/contentarea[@id='nav5']").ToString())%></a></li>
+                        <li><a href="access_control.aspx"><%# Microsite.SiteUtils.ReplaceText(XPath("contentareas/contentarea[@id='nav5']").ToString())%></a></li>
                     </ul>
                 </div>
 
